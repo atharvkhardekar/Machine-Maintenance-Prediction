@@ -1,0 +1,127 @@
+/* styles.css */
+
+/* General styles for the body and text */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Compact container styles for the form and result pages */
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Larger container size for the info page */
+.info-container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Styles for headings */
+h1 {
+    color: #333;
+    text-align: center;
+    font-size: 2em;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+label {
+    font-size: 1em;
+    color: #555;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Styles for links and buttons */
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Output styles for displaying the prediction result */
+#output {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e7f7e7;
+    border: 1px solid #d4f0d4;
+    color: #333;
+    font-size: 1em;
+}
+
+/* Info page specific styles */
+.info-container h1 {
+    color: #333;
+    font-size: 2.5em;
+}
+
+.info-container p {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.info-container a {
+    text-decoration: none;
+    padding: 12px 10px;
+    background-color: #28a745;
+    color: white;
+    font-size: 1.1em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.info-container a:hover {
+    background-color: #218838;
+}

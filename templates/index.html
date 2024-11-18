@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Forest Model Prediction</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Maintenance Prediction for Machines</h1>
+        <!-- Use method="POST" and action="/predict" to submit the form -->
+        <form action="/predict" method="POST">
+            <label for="feature_1">Air Temperature [K]:</label>
+            <input type="text" id="feature_1" name="feature_1" required>
+            
+            <label for="feature_2">Process Temperature [K]:</label>
+            <input type="text" id="feature_2" name="feature_2" required>
+            
+            <label for="feature_3">Rotational Speed [Rpm]:</label>
+            <input type="text" id="feature_3" name="feature_3" required>
+            
+            <label for="feature_4">Torque [Nm]:</label>
+            <input type="text" id="feature_4" name="feature_4" required>
+            
+            <button type="submit">Predict</button>
+        </form>
+        <a href="/info" class="btn">About the Project</a>
+    </div>
+</body>
+</html>
