@@ -49,7 +49,7 @@ This project uses machine learning models combined with the Crayfish Optimizatio
 - Deployment: Flask Web Framework
 
 ## License
-This project is licensed under the MIT License. See the **LICENSE** file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## For More Details of The Project
 - A research paper "**Optimized Manufacturing and Construction Site Machines Maintenance Prediction using Machine Learning and Crayfish Algorithm**" also published based on this project in "**International Journal For Multidisciplinary Research**" you can also refer that.   
